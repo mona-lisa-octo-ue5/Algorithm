@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6458A728259C84BF0063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458A727259C84BF0063BFE0 /* main.c */; };
 		64B4FFD1259C1BAE00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFD0259C1BAE00F598AB /* main.c */; };
 		64B4FFE5259C1D1800F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFE4259C1D1800F598AB /* main.c */; };
 		64B4FFF6259C2B8A00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFF5259C2B8A00F598AB /* main.c */; };
@@ -14,6 +15,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		6458A723259C84BF0063BFE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		64B4FFCB259C1BAE00F598AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,6 +63,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6458A725259C84BF0063BFE0 /* 4-线性表链式存储 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4-线性表链式存储"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458A727259C84BF0063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFCD259C1BAE00F598AB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B4FFD0259C1BAE00F598AB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFE2259C1D1800F598AB /* 1-时间复杂度计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-时间复杂度计算"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,6 +76,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6458A722259C84BF0063BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64B4FFCA259C1BAE00F598AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -95,6 +114,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6458A726259C84BF0063BFE0 /* 4-线性表链式存储 */ = {
+			isa = PBXGroup;
+			children = (
+				6458A727259C84BF0063BFE0 /* main.c */,
+			);
+			path = "4-线性表链式存储";
+			sourceTree = "<group>";
+		};
 		64B4FFC4259C1BAE00F598AB = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +129,7 @@
 				64B4FFE3259C1D1800F598AB /* 1-时间复杂度计算 */,
 				64B4FFF4259C2B8A00F598AB /* 2-线性表 */,
 				64F1474A259C75EE00CB364A /* 3-空间复杂度 */,
+				6458A726259C84BF0063BFE0 /* 4-线性表链式存储 */,
 				64B4FFCE259C1BAE00F598AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,6 +141,7 @@
 				64B4FFE2259C1D1800F598AB /* 1-时间复杂度计算 */,
 				64B4FFF3259C2B8A00F598AB /* 2-线性表 */,
 				64F14749259C75EE00CB364A /* 3-空间复杂度 */,
+				6458A725259C84BF0063BFE0 /* 4-线性表链式存储 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -152,6 +181,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		6458A724259C84BF0063BFE0 /* 4-线性表链式存储 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458A72B259C84BF0063BFE0 /* Build configuration list for PBXNativeTarget "4-线性表链式存储" */;
+			buildPhases = (
+				6458A721259C84BF0063BFE0 /* Sources */,
+				6458A722259C84BF0063BFE0 /* Frameworks */,
+				6458A723259C84BF0063BFE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4-线性表链式存储";
+			productName = "4-线性表链式存储";
+			productReference = 6458A725259C84BF0063BFE0 /* 4-线性表链式存储 */;
+			productType = "com.apple.product-type.tool";
+		};
 		64B4FFCC259C1BAE00F598AB /* Algorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64B4FFD4259C1BAE00F598AB /* Build configuration list for PBXNativeTarget "Algorithm" */;
@@ -228,6 +274,9 @@
 			attributes = {
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
+					6458A724259C84BF0063BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64B4FFCC259C1BAE00F598AB = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -259,11 +308,20 @@
 				64B4FFE1259C1D1800F598AB /* 1-时间复杂度计算 */,
 				64B4FFF2259C2B8A00F598AB /* 2-线性表 */,
 				64F14748259C75EE00CB364A /* 3-空间复杂度 */,
+				6458A724259C84BF0063BFE0 /* 4-线性表链式存储 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6458A721259C84BF0063BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458A728259C84BF0063BFE0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		64B4FFC9259C1BAE00F598AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -299,6 +357,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6458A729259C84BF0063BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6458A72A259C84BF0063BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		64B4FFD2259C1BAE00F598AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -493,6 +571,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6458A72B259C84BF0063BFE0 /* Build configuration list for PBXNativeTarget "4-线性表链式存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458A729259C84BF0063BFE0 /* Debug */,
+				6458A72A259C84BF0063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		64B4FFC8259C1BAE00F598AB /* Build configuration list for PBXProject "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
