@@ -37,6 +37,8 @@
 		6458AA6825A2E8E20063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AA6725A2E8E20063BFE0 /* main.c */; };
 		6458AA9325A2F0530063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AA9225A2F0530063BFE0 /* main.c */; };
 		6458AABF25A2F5980063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AABE25A2F5980063BFE0 /* main.c */; };
+		6458AAEC25A2FB000063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AAEB25A2FB000063BFE0 /* main.c */; };
+		6458AB1A25A301150063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AB1925A301150063BFE0 /* main.c */; };
 		64B4FFD1259C1BAE00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFD0259C1BAE00F598AB /* main.c */; };
 		64B4FFE5259C1D1800F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFE4259C1D1800F598AB /* main.c */; };
 		64B4FFF6259C2B8A00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFF5259C2B8A00F598AB /* main.c */; };
@@ -314,6 +316,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		6458AAE725A2FB000063BFE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6458AB1525A301150063BFE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		64B4FFCB259C1BAE00F598AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,6 +433,10 @@
 		6458AA9225A2F0530063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6458AABC25A2F5980063BFE0 /* 15.1-邻接表广度优先遍历 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "15.1-邻接表广度优先遍历"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6458AABE25A2F5980063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6458AAE925A2FB000063BFE0 /* 16-最小生成树-Prim */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16-最小生成树-Prim"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458AAEB25A2FB000063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6458AB1725A301150063BFE0 /* 16.1-Kruskal */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "16.1-Kruskal"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458AB1925A301150063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFCD259C1BAE00F598AB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B4FFD0259C1BAE00F598AB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFE2259C1D1800F598AB /* 1-时间复杂度计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-时间复杂度计算"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -628,6 +652,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6458AAB925A2F5980063BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458AAE625A2FB000063BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458AB1425A301150063BFE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -905,6 +943,22 @@
 			path = "15.1-邻接表广度优先遍历";
 			sourceTree = "<group>";
 		};
+		6458AAEA25A2FB000063BFE0 /* 16-最小生成树-Prim */ = {
+			isa = PBXGroup;
+			children = (
+				6458AAEB25A2FB000063BFE0 /* main.c */,
+			);
+			path = "16-最小生成树-Prim";
+			sourceTree = "<group>";
+		};
+		6458AB1825A301150063BFE0 /* 16.1-Kruskal */ = {
+			isa = PBXGroup;
+			children = (
+				6458AB1925A301150063BFE0 /* main.c */,
+			);
+			path = "16.1-Kruskal";
+			sourceTree = "<group>";
+		};
 		64B4FFC4259C1BAE00F598AB = {
 			isa = PBXGroup;
 			children = (
@@ -942,6 +996,8 @@
 				6458AA6625A2E8E20063BFE0 /* 14.1-邻接表的深度优先遍历 */,
 				6458AA9125A2F0530063BFE0 /* 15-图的广度优先遍历-邻接矩阵广度优先遍历 */,
 				6458AABD25A2F5980063BFE0 /* 15.1-邻接表广度优先遍历 */,
+				6458AAEA25A2FB000063BFE0 /* 16-最小生成树-Prim */,
+				6458AB1825A301150063BFE0 /* 16.1-Kruskal */,
 				64B4FFCE259C1BAE00F598AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -983,6 +1039,8 @@
 				6458AA6525A2E8E20063BFE0 /* 14.1-邻接表的深度优先遍历 */,
 				6458AA9025A2F0530063BFE0 /* 15-图的广度优先遍历-邻接矩阵广度优先遍历 */,
 				6458AABC25A2F5980063BFE0 /* 15.1-邻接表广度优先遍历 */,
+				6458AAE925A2FB000063BFE0 /* 16-最小生成树-Prim */,
+				6458AB1725A301150063BFE0 /* 16.1-Kruskal */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1532,6 +1590,40 @@
 			productReference = 6458AABC25A2F5980063BFE0 /* 15.1-邻接表广度优先遍历 */;
 			productType = "com.apple.product-type.tool";
 		};
+		6458AAE825A2FB000063BFE0 /* 16-最小生成树-Prim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458AAED25A2FB000063BFE0 /* Build configuration list for PBXNativeTarget "16-最小生成树-Prim" */;
+			buildPhases = (
+				6458AAE525A2FB000063BFE0 /* Sources */,
+				6458AAE625A2FB000063BFE0 /* Frameworks */,
+				6458AAE725A2FB000063BFE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16-最小生成树-Prim";
+			productName = "16-最小生成树-Prim";
+			productReference = 6458AAE925A2FB000063BFE0 /* 16-最小生成树-Prim */;
+			productType = "com.apple.product-type.tool";
+		};
+		6458AB1625A301150063BFE0 /* 16.1-Kruskal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458AB1B25A301150063BFE0 /* Build configuration list for PBXNativeTarget "16.1-Kruskal" */;
+			buildPhases = (
+				6458AB1325A301150063BFE0 /* Sources */,
+				6458AB1425A301150063BFE0 /* Frameworks */,
+				6458AB1525A301150063BFE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "16.1-Kruskal";
+			productName = "16.1-Kruskal";
+			productReference = 6458AB1725A301150063BFE0 /* 16.1-Kruskal */;
+			productType = "com.apple.product-type.tool";
+		};
 		64B4FFCC259C1BAE00F598AB /* Algorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64B4FFD4259C1BAE00F598AB /* Build configuration list for PBXNativeTarget "Algorithm" */;
@@ -1698,6 +1790,12 @@
 					6458AABB25A2F5980063BFE0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					6458AAE825A2FB000063BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6458AB1625A301150063BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64B4FFCC259C1BAE00F598AB = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1759,6 +1857,8 @@
 				6458AA6425A2E8E20063BFE0 /* 14.1-邻接表的深度优先遍历 */,
 				6458AA8F25A2F0530063BFE0 /* 15-图的广度优先遍历-邻接矩阵广度优先遍历 */,
 				6458AABB25A2F5980063BFE0 /* 15.1-邻接表广度优先遍历 */,
+				6458AAE825A2FB000063BFE0 /* 16-最小生成树-Prim */,
+				6458AB1625A301150063BFE0 /* 16.1-Kruskal */,
 			);
 		};
 /* End PBXProject section */
@@ -2001,6 +2101,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6458AABF25A2F5980063BFE0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458AAE525A2FB000063BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458AAEC25A2FB000063BFE0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458AB1325A301150063BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458AB1A25A301150063BFE0 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2639,6 +2755,46 @@
 			};
 			name = Release;
 		};
+		6458AAEE25A2FB000063BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6458AAEF25A2FB000063BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6458AB1C25A301150063BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6458AB1D25A301150063BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		64B4FFD2259C1BAE00F598AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3099,6 +3255,24 @@
 			buildConfigurations = (
 				6458AAC125A2F5980063BFE0 /* Debug */,
 				6458AAC225A2F5980063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458AAED25A2FB000063BFE0 /* Build configuration list for PBXNativeTarget "16-最小生成树-Prim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458AAEE25A2FB000063BFE0 /* Debug */,
+				6458AAEF25A2FB000063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458AB1B25A301150063BFE0 /* Build configuration list for PBXNativeTarget "16.1-Kruskal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458AB1C25A301150063BFE0 /* Debug */,
+				6458AB1D25A301150063BFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
