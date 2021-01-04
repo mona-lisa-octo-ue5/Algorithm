@@ -94,6 +94,16 @@
 			<key>orderHint</key>
 			<integer>37</integer>
 		</dict>
+		<key>18-拓补排序.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>38</integer>
+		</dict>
+		<key>19-关键路径的求解.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>39</integer>
+		</dict>
 		<key>2-线性表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>

@@ -41,6 +41,8 @@
 		6458AB1A25A301150063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AB1925A301150063BFE0 /* main.c */; };
 		6458AB4C25A305110063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AB4B25A305110063BFE0 /* main.c */; };
 		6458AB7C25A308770063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458AB7B25A308770063BFE0 /* main.c */; };
+		6458ABAE25A30D3E0063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458ABAD25A30D3E0063BFE0 /* main.c */; };
+		6458ABE125A317AC0063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458ABE025A317AC0063BFE0 /* main.c */; };
 		64B4FFD1259C1BAE00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFD0259C1BAE00F598AB /* main.c */; };
 		64B4FFE5259C1D1800F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFE4259C1D1800F598AB /* main.c */; };
 		64B4FFF6259C2B8A00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFF5259C2B8A00F598AB /* main.c */; };
@@ -354,6 +356,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		6458ABA925A30D3E0063BFE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		6458ABDC25A317AC0063BFE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		64B4FFCB259C1BAE00F598AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,6 +481,10 @@
 		6458AB4B25A305110063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6458AB7925A308760063BFE0 /* 17.1-最短路径Floyd算法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "17.1-最短路径Floyd算法"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6458AB7B25A308770063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6458ABAB25A30D3E0063BFE0 /* 18-拓补排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "18-拓补排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458ABAD25A30D3E0063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6458ABDE25A317AC0063BFE0 /* 19-关键路径的求解 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "19-关键路径的求解"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458ABE025A317AC0063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFCD259C1BAE00F598AB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B4FFD0259C1BAE00F598AB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFE2259C1D1800F598AB /* 1-时间复杂度计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-时间复杂度计算"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -704,6 +728,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6458AB7625A308760063BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458ABA825A30D3E0063BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458ABDB25A317AC0063BFE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1013,6 +1051,22 @@
 			path = "17.1-最短路径Floyd算法";
 			sourceTree = "<group>";
 		};
+		6458ABAC25A30D3E0063BFE0 /* 18-拓补排序 */ = {
+			isa = PBXGroup;
+			children = (
+				6458ABAD25A30D3E0063BFE0 /* main.c */,
+			);
+			path = "18-拓补排序";
+			sourceTree = "<group>";
+		};
+		6458ABDF25A317AC0063BFE0 /* 19-关键路径的求解 */ = {
+			isa = PBXGroup;
+			children = (
+				6458ABE025A317AC0063BFE0 /* main.c */,
+			);
+			path = "19-关键路径的求解";
+			sourceTree = "<group>";
+		};
 		64B4FFC4259C1BAE00F598AB = {
 			isa = PBXGroup;
 			children = (
@@ -1054,6 +1108,8 @@
 				6458AB1825A301150063BFE0 /* 16.1-Kruskal */,
 				6458AB4A25A305100063BFE0 /* 17-最短路径Dijkstra算法 */,
 				6458AB7A25A308770063BFE0 /* 17.1-最短路径Floyd算法 */,
+				6458ABAC25A30D3E0063BFE0 /* 18-拓补排序 */,
+				6458ABDF25A317AC0063BFE0 /* 19-关键路径的求解 */,
 				64B4FFCE259C1BAE00F598AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -1099,6 +1155,8 @@
 				6458AB1725A301150063BFE0 /* 16.1-Kruskal */,
 				6458AB4925A305100063BFE0 /* 17-最短路径Dijkstra算法 */,
 				6458AB7925A308760063BFE0 /* 17.1-最短路径Floyd算法 */,
+				6458ABAB25A30D3E0063BFE0 /* 18-拓补排序 */,
+				6458ABDE25A317AC0063BFE0 /* 19-关键路径的求解 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1716,6 +1774,40 @@
 			productReference = 6458AB7925A308760063BFE0 /* 17.1-最短路径Floyd算法 */;
 			productType = "com.apple.product-type.tool";
 		};
+		6458ABAA25A30D3E0063BFE0 /* 18-拓补排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458ABAF25A30D3E0063BFE0 /* Build configuration list for PBXNativeTarget "18-拓补排序" */;
+			buildPhases = (
+				6458ABA725A30D3E0063BFE0 /* Sources */,
+				6458ABA825A30D3E0063BFE0 /* Frameworks */,
+				6458ABA925A30D3E0063BFE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "18-拓补排序";
+			productName = "18-拓补排序";
+			productReference = 6458ABAB25A30D3E0063BFE0 /* 18-拓补排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		6458ABDD25A317AC0063BFE0 /* 19-关键路径的求解 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458ABE225A317AC0063BFE0 /* Build configuration list for PBXNativeTarget "19-关键路径的求解" */;
+			buildPhases = (
+				6458ABDA25A317AC0063BFE0 /* Sources */,
+				6458ABDB25A317AC0063BFE0 /* Frameworks */,
+				6458ABDC25A317AC0063BFE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "19-关键路径的求解";
+			productName = "19-关键路径的求解";
+			productReference = 6458ABDE25A317AC0063BFE0 /* 19-关键路径的求解 */;
+			productType = "com.apple.product-type.tool";
+		};
 		64B4FFCC259C1BAE00F598AB /* Algorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64B4FFD4259C1BAE00F598AB /* Build configuration list for PBXNativeTarget "Algorithm" */;
@@ -1894,6 +1986,12 @@
 					6458AB7825A308760063BFE0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					6458ABAA25A30D3E0063BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					6458ABDD25A317AC0063BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64B4FFCC259C1BAE00F598AB = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1959,6 +2057,8 @@
 				6458AB1625A301150063BFE0 /* 16.1-Kruskal */,
 				6458AB4825A305100063BFE0 /* 17-最短路径Dijkstra算法 */,
 				6458AB7825A308760063BFE0 /* 17.1-最短路径Floyd算法 */,
+				6458ABAA25A30D3E0063BFE0 /* 18-拓补排序 */,
+				6458ABDD25A317AC0063BFE0 /* 19-关键路径的求解 */,
 			);
 		};
 /* End PBXProject section */
@@ -2233,6 +2333,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				6458AB7C25A308770063BFE0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458ABA725A30D3E0063BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458ABAE25A30D3E0063BFE0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458ABDA25A317AC0063BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458ABE125A317AC0063BFE0 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2951,6 +3067,46 @@
 			};
 			name = Release;
 		};
+		6458ABB025A30D3E0063BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6458ABB125A30D3E0063BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6458ABE325A317AC0063BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6458ABE425A317AC0063BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		64B4FFD2259C1BAE00F598AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3447,6 +3603,24 @@
 			buildConfigurations = (
 				6458AB7E25A308770063BFE0 /* Debug */,
 				6458AB7F25A308770063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458ABAF25A30D3E0063BFE0 /* Build configuration list for PBXNativeTarget "18-拓补排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458ABB025A30D3E0063BFE0 /* Debug */,
+				6458ABB125A30D3E0063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458ABE225A317AC0063BFE0 /* Build configuration list for PBXNativeTarget "19-关键路径的求解" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458ABE325A317AC0063BFE0 /* Debug */,
+				6458ABE425A317AC0063BFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
