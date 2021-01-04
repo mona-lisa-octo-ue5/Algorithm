@@ -109,6 +109,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>20-顺序查找.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>40</integer>
+		</dict>
 		<key>3-空间复杂度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
