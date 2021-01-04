@@ -84,6 +84,16 @@
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
+		<key>17-最短路径Dijkstra算法.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>36</integer>
+		</dict>
+		<key>17.1-最短路径Floyd算法.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>37</integer>
+		</dict>
 		<key>2-线性表.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
