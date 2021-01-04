@@ -30,6 +30,7 @@
 		6458A95725A0AA4B0063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458A95625A0AA4B0063BFE0 /* main.c */; };
 		6458A97B25A0B5E60063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458A97A25A0B5E60063BFE0 /* main.c */; };
 		6458A9A025A2B97A0063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458A99F25A2B97A0063BFE0 /* main.c */; };
+		6458A9C625A2BF460063BFE0 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 6458A9C525A2BF460063BFE0 /* main.c */; };
 		64B4FFD1259C1BAE00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFD0259C1BAE00F598AB /* main.c */; };
 		64B4FFE5259C1D1800F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFE4259C1D1800F598AB /* main.c */; };
 		64B4FFF6259C2B8A00F598AB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 64B4FFF5259C2B8A00F598AB /* main.c */; };
@@ -244,6 +245,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		6458A9C125A2BF450063BFE0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		64B4FFCB259C1BAE00F598AB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -329,6 +339,8 @@
 		6458A97A25A0B5E60063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		6458A99D25A2B97A0063BFE0 /* 12-线索化二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12-线索化二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6458A99F25A2B97A0063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		6458A9C325A2BF450063BFE0 /* 12.1-哈夫曼编码 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "12.1-哈夫曼编码"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6458A9C525A2BF460063BFE0 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFCD259C1BAE00F598AB /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		64B4FFD0259C1BAE00F598AB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		64B4FFE2259C1D1800F598AB /* 1-时间复杂度计算 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1-时间复杂度计算"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -495,6 +507,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		6458A99A25A2B97A0063BFE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458A9C025A2BF450063BFE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -716,6 +735,14 @@
 			path = "12-线索化二叉树";
 			sourceTree = "<group>";
 		};
+		6458A9C425A2BF450063BFE0 /* 12.1-哈夫曼编码 */ = {
+			isa = PBXGroup;
+			children = (
+				6458A9C525A2BF460063BFE0 /* main.c */,
+			);
+			path = "12.1-哈夫曼编码";
+			sourceTree = "<group>";
+		};
 		64B4FFC4259C1BAE00F598AB = {
 			isa = PBXGroup;
 			children = (
@@ -746,6 +773,7 @@
 				6458A95525A0AA4B0063BFE0 /* 11-二叉树顺序存储实现 */,
 				6458A97925A0B5E60063BFE0 /* 11.1-二叉树链式存储实现 */,
 				6458A99E25A2B97A0063BFE0 /* 12-线索化二叉树 */,
+				6458A9C425A2BF450063BFE0 /* 12.1-哈夫曼编码 */,
 				64B4FFCE259C1BAE00F598AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -780,6 +808,7 @@
 				6458A95425A0AA4B0063BFE0 /* 11-二叉树顺序存储实现 */,
 				6458A97825A0B5E60063BFE0 /* 11.1-二叉树链式存储实现 */,
 				6458A99D25A2B97A0063BFE0 /* 12-线索化二叉树 */,
+				6458A9C325A2BF450063BFE0 /* 12.1-哈夫曼编码 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1210,6 +1239,23 @@
 			productReference = 6458A99D25A2B97A0063BFE0 /* 12-线索化二叉树 */;
 			productType = "com.apple.product-type.tool";
 		};
+		6458A9C225A2BF450063BFE0 /* 12.1-哈夫曼编码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6458A9C725A2BF460063BFE0 /* Build configuration list for PBXNativeTarget "12.1-哈夫曼编码" */;
+			buildPhases = (
+				6458A9BF25A2BF450063BFE0 /* Sources */,
+				6458A9C025A2BF450063BFE0 /* Frameworks */,
+				6458A9C125A2BF450063BFE0 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "12.1-哈夫曼编码";
+			productName = "12.1-哈夫曼编码";
+			productReference = 6458A9C325A2BF450063BFE0 /* 12.1-哈夫曼编码 */;
+			productType = "com.apple.product-type.tool";
+		};
 		64B4FFCC259C1BAE00F598AB /* Algorithm */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 64B4FFD4259C1BAE00F598AB /* Build configuration list for PBXNativeTarget "Algorithm" */;
@@ -1355,6 +1401,9 @@
 					6458A99C25A2B97A0063BFE0 = {
 						CreatedOnToolsVersion = 12.0;
 					};
+					6458A9C225A2BF450063BFE0 = {
+						CreatedOnToolsVersion = 12.0;
+					};
 					64B4FFCC259C1BAE00F598AB = {
 						CreatedOnToolsVersion = 12.0;
 					};
@@ -1409,6 +1458,7 @@
 				6458A95325A0AA4B0063BFE0 /* 11-二叉树顺序存储实现 */,
 				6458A97725A0B5E60063BFE0 /* 11.1-二叉树链式存储实现 */,
 				6458A99C25A2B97A0063BFE0 /* 12-线索化二叉树 */,
+				6458A9C225A2BF450063BFE0 /* 12.1-哈夫曼编码 */,
 			);
 		};
 /* End PBXProject section */
@@ -1595,6 +1645,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6458A9A025A2B97A0063BFE0 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6458A9BF25A2BF450063BFE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6458A9C625A2BF460063BFE0 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2093,6 +2151,26 @@
 			};
 			name = Release;
 		};
+		6458A9C825A2BF460063BFE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6458A9C925A2BF460063BFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R8ZSZLVXPV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		64B4FFD2259C1BAE00F598AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -2490,6 +2568,15 @@
 			buildConfigurations = (
 				6458A9A225A2B97A0063BFE0 /* Debug */,
 				6458A9A325A2B97A0063BFE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6458A9C725A2BF460063BFE0 /* Build configuration list for PBXNativeTarget "12.1-哈夫曼编码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6458A9C825A2BF460063BFE0 /* Debug */,
+				6458A9C925A2BF460063BFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
