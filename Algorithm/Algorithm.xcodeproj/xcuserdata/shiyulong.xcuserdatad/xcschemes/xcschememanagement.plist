@@ -129,6 +129,16 @@
 			<key>orderHint</key>
 			<integer>43</integer>
 		</dict>
+		<key>22-排序算法-冒泡排序.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>22.1-选择排序.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
 		<key>3-空间复杂度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
