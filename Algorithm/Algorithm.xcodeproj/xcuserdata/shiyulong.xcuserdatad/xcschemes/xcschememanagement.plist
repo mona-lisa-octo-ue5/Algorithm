@@ -114,6 +114,21 @@
 			<key>orderHint</key>
 			<integer>40</integer>
 		</dict>
+		<key>20.1-二叉排序树.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>41</integer>
+		</dict>
+		<key>21-平衡二叉树实现.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>21.1-散列查找.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
 		<key>3-空间复杂度.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
